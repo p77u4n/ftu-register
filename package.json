@@ -1,0 +1,20 @@
+{
+  "name": "tinchi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "p77u4n",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-standard-jsx": "^6.0.2",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-plugin-react": "^7.6.1",
+    "tape": "^4.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0",
+    "eslint-plugin-react": ">=7.6.1"
+  }
+}

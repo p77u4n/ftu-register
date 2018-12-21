@@ -1,0 +1,52 @@
+Arguments: 
+  /home/tuancaurao/.nvm/versions/node/v8.9.4/bin/node /home/tuancaurao/.nvm/versions/node/v8.9.4/bin/yarn add eslint-config-standard-jsx
+
+PATH: 
+  /home/tuancaurao/.nvm/versions/node/v8.9.4/bin:/home/tuancaurao/bin:/home/tuancaurao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/DevEnvironment/go/bin:/opt/DevEnvironment/jdk/jdk1.8.0_171/bin:/opt/DevEnvironment/android/tools:/opt/DevEnvironment/android/platform-tools:/opt/DevEnvironment/go/bin:/opt/DevEnvironment/jdk/jdk1.8.0_171/bin:/opt/DevEnvironment/android/tools:/opt/DevEnvironment/android/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "tinchi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "p77u4n",
+    "license": "MIT",
+    "dependencies": {
+      "eslint-config-standard-jsx": "^6.0.2"
+    },
+    "devDependencies": {
+      "eslint": "^5.0.0",
+      "eslint-plugin-react": "^7.6.1",
+      "tape": "^4.8.0"
+    },  
+  	"peerDependencies": {
+      "eslint": ">=5.0.0",
+      "eslint-plugin-react": ">=7.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/home/tuancaurao/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:186:110)
+      at checkOne (/home/tuancaurao/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:62444:11)
+      at Object.check (/home/tuancaurao/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:62463:5)
+      at /home/tuancaurao/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (/home/tuancaurao/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /home/tuancaurao/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
